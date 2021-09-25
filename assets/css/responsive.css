@@ -489,6 +489,24 @@
     .bg-gallery-color{
         height: 370px;
     }
+    .cat-box-img{
+        height: 600px;
+    }
+    .order1-1199{
+        order: 1;
+    }
+    .order2-1199{
+        order: 2;
+    }
+    .order3-1199{
+        order: 3;
+    }
+    .order4-1199{
+        order: 4;
+    }
+    .cat-box-text2{
+        padding-left: 100px;
+    }
 }
 
 @media(max-width: 1007px) and (min-width: 992px){
@@ -726,5 +744,45 @@
     }
     .testi-content{
         padding-left: 0;
+    }
+    .breadcrumb-area,
+    .bread-box{
+        height: 230px;
+    }
+    .bread-box{
+        margin-top: 40px;
+    }
+    .bread-head span, .bread-head span a{
+        font-size: 18px;
+    }
+    .bread-head h1{
+        font-size: 50px;
+    }
+    .bread-overlay575{
+        display: block;
+        background-color: #556b2f7a;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.9;
+    }
+    .music-content p{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    .cat-box-img {
+        height: 250px;
+    }
+    .cat-box-text{
+        padding: 35px 35px 50px;
+    }
+    .instrumental-2 {
+        padding-left: 35px;
+    }
+    .instrumental-lists ul li a{
+        font-size: 20px;
     }
 }
