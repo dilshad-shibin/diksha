@@ -16,6 +16,7 @@
 :: 14.0 POPUP AREA
 :: 15.0 FOOTER AREA CSS
 :: 16.0 MUSIC PAGE CSS
+:: 17.0 ABOUT PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -1554,4 +1555,210 @@ img {
 
 .instrumental-2{
     padding-left: 75px;
+}
+
+/* ******************************
+:: 17.0 ABOUT PAGE CSS
+****************************** */
+.about-page-content{
+    padding-left: 20px;
+}
+
+.about-page-content span{
+    font-family: 'Charmonman', cursive;
+    color: #fc425f;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about-page-content h2{
+    color: #660e0f;
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.about-page-content p{
+    color: #2f2f2f;
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 600px;
+}
+
+.about-page-content .list-items{
+    display: flex;
+    margin-top: 20px;
+}
+
+.about-page-content .list-items ul li{
+    margin-bottom: 10px;
+}
+
+.about-page-content .list-items ul li svg{
+    color: #fc425f;
+}
+
+.list-items-second{
+    padding-left: 50px;
+}
+
+.about-img{
+    position: relative;
+}
+
+.about-img a{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.counting-area{
+    padding-top: 0;
+}
+
+.count-box{
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.count-inner{
+    position: relative;
+    text-align: center;
+}
+
+.count-inner .icon{
+    margin-bottom: 15px;
+}
+
+.count-inner .icon svg{
+    font-size: 48px;
+    color: #fc425f;
+}
+
+.count-inner .count-no h3{
+    color: #252425;
+    font-size: 32px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.count-inner .title span{
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.choose-us-area{
+    background-image: url(../img/about/choose-us.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0px 170px 0px;
+}
+
+.chooseus-inner{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.choose-head span{ 
+    font-family: 'Charmonman', cursive;
+    color: #fc425f;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.choose-head span{
+    font-family: 'Charmonman', cursive;
+    color: #fc425f;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.choose-head h3{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    max-width: 500px;
+    margin-top: 15px;
+}
+
+.choose-btn{
+    position: relative;
+    top: -15px;
+}
+
+.choose-btn a{
+    background: #d31f3b;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 15px 60px;
+    font-size: 18px;
+}
+
+.choose-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #25282580;
+    opacity: 0.9
+}
+
+.choose-boxes{
+    margin-top: -80px;
+    padding-bottom: 100px;
+}
+
+.choose-boxes .box-inner{
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+    transition: all .5s ease;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.choose-boxes .box-inner .icon{
+    margin-bottom: 15px;
+}
+
+.choose-boxes .box-inner .icon svg{
+    color: #d31f3b;
+    font-size: 48px;
+}
+
+.choose-boxes .box-inner .box-text h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.choose-boxes .box-inner .box-text p{
+    color: #7A7A7A;
+    font-size: 15px;
+}
+
+.our-courses2{
+    background: #fff;
+    padding-top: 50px;
+}
+
+.testi-area2{
+    padding-top: 0;
 }

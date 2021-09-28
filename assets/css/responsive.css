@@ -507,6 +507,19 @@
     .cat-box-text2{
         padding-left: 100px;
     }
+    .about-img{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .about-page-content{
+        text-align: center;
+    }
+    .about-page-content p{
+        max-width: inherit;
+    }
+    .about-page-content .list-items{
+        justify-content: center;
+    }
 }
 
 @media(max-width: 1007px) and (min-width: 992px){
@@ -612,6 +625,19 @@
     }
     .footer-area .footer-items-menu{
         padding-left: 0;
+    }
+    .count-inner{
+        margin-bottom: 30px;
+    }
+    .chooseus-inner{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .choose-head{
+        margin-bottom: 60px;
+    }
+    .choose-boxes .box-inner{
+        margin-bottom: 30px;
     }
 }
 
@@ -756,7 +782,7 @@
         font-size: 18px;
     }
     .bread-head h1{
-        font-size: 50px;
+        font-size: 45px;
     }
     .bread-overlay575{
         display: block;
@@ -784,5 +810,21 @@
     }
     .instrumental-lists ul li a{
         font-size: 20px;
+    }
+    .about-page-content h2{
+        line-height: 1.3;
+        font-size: 26px;
+    }
+    .about-page-content .list-items{
+        flex-direction: column;
+    }
+    .list-items-second{
+        padding-left: 0;
+    }
+    .choose-head h3{
+        font-size: 30px;
+    }
+    .choose-boxes{
+        padding-bottom: 20px;
     }
 }
