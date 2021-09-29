@@ -17,6 +17,7 @@
 :: 15.0 FOOTER AREA CSS
 :: 16.0 MUSIC PAGE CSS
 :: 17.0 ABOUT PAGE CSS
+:: 18.0 CONTACT PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -1761,4 +1762,170 @@ img {
 
 .testi-area2{
     padding-top: 0;
+}
+
+/* ******************************
+:: 18.0 CONTACT PAGE CSS
+****************************** */
+.form-box h3{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form-group label{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-group label span{
+    color: #d31f3b;
+}
+
+.form-group .form-control{
+    color: #000000;
+    border: 1px solid #EAEAEA;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px 15px 15px 15px;
+    border-radius: 7px;
+    line-height: 21px;
+    height: 50px;
+}
+
+.form-group textarea.form-control{
+    height: auto;
+}
+
+.form-btn{
+    margin-top: 10px;
+}
+
+.form-btn a{
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 50%);
+    padding: 1rem .75rem;
+    background: #d31f3b;
+    border-color: #d31f3b;
+    transition: all .3s ease;
+}
+
+.form-btn a:hover{
+    background-color: #660e0f;
+    border-color: #660e0f;
+}
+
+.contact-box span{
+    font-family: 'Charmonman', cursive;
+    color: #fc425f;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact-box h2{
+    color: #000000;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact-box p{
+    margin-bottom: 22px;
+}
+
+.icon-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    transition: all .3s ease;
+}
+
+.icon-box .icon-box-body{
+    padding-left: 20px;
+}
+
+.icon-box .style-box{
+    background: #fc425f;
+    min-height: 70px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.icon-box:hover .style-box{
+    background-color: #660e0f;
+}
+
+.icon-box .style-box svg{
+    color: #fff;
+    font-size: 32px;
+}
+
+.icon-box .style-box1 svg{
+    font-size: 40px;
+}
+
+.icon-box .icon-box-body h4{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.icon-box .icon-box-body p a{
+    transition: all .3s ease;
+}
+
+.icon-box:hover .icon-box-body p a{
+    color: #fc425f;
+}
+
+.contact-box{
+    padding-left: 50px;
+}
+
+.social-media{
+    border-top: 1px solid #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.social-media .social-links ul{
+    display: flex;
+}
+
+.social-media .social-links ul li{
+    margin: 0 10px;
+}
+
+.social-media .social-links ul li a{
+    font-size: 20px;
+    transition: all .3s ease;
+}
+
+.social-media .social-links ul li a:hover{
+    color: #fc425f;
+}
+
+.social-media .social-head h4{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.map-area{
+    padding-top: 0;
+}
+
+.map-area .map {
+    height: 450px;
+    filter: grayscale(1);
+    width: 100%;
+}
+
+.map-area .map iframe {
+    width: 100%;
 }

@@ -639,6 +639,13 @@
     .choose-boxes .box-inner{
         margin-bottom: 30px;
     }
+    .contact-box{
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    .map-area{
+        padding-top: 0;
+    }
 }
 
 
@@ -782,7 +789,7 @@
         font-size: 18px;
     }
     .bread-head h1{
-        font-size: 45px;
+        font-size: 35px;
     }
     .bread-overlay575{
         display: block;
@@ -826,5 +833,8 @@
     }
     .choose-boxes{
         padding-bottom: 20px;
+    }
+    .contact-box h2{
+        font-size: 32px;
     }
 }
