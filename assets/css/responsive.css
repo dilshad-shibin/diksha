@@ -520,6 +520,9 @@
     .about-page-content .list-items{
         justify-content: center;
     }
+    .post-inner{
+        max-height: 300px;
+    }
 }
 
 @media(max-width: 1007px) and (min-width: 992px){
@@ -848,5 +851,11 @@
     }
     .team-content::before{
         display: none;
+    }
+    .post-inner {
+        max-height: 225px;
+    }
+    .post-content .entry-item .entry-header h3 a{
+        font-size: 25px;
     }
 }

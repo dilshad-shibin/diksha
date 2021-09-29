@@ -20,6 +20,7 @@
 :: 18.0 CONTACT PAGE CSS
 :: 19.0 TEAM PAGE CSS
 :: 20.0 GALERY PAGE CSS
+:: 21.0 COURSES PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -2245,3 +2246,160 @@ img {
     visibility: visible;
     opacity: 1;
 }
+
+/* ******************************
+:: 21.0 COURSES PAGE CSS
+****************************** */
+.courses-box{
+    position: relative;
+}
+
+.cr-content{
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    bottom: -103px;
+    left: 0;
+    z-index: 9;
+    display: inline-block;
+}
+
+.post-inner{
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    /* height: 100%; */
+    max-height: 350px;
+    background-color: rgba(0,0,0,.15);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.post-inner .post-thumbnail{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-top: 126.835%;
+}
+
+.post-inner .post-thumbnail a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+
+.post-inner .post-thumbnail img{
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;;
+}
+
+.post-inner .post-content{
+    padding: 15px 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.post-inner .post-content::after{
+    content: '';
+    position: absolute;
+    height: 150%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -webkit-linear-gradient(90deg,rgba(0,0,0,.9) 0%,rgba(0,0,0,0) 100%);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    opacity: 1;
+    z-index: 0;
+}
+
+.post-inner .post-content .entry-item{
+    position: relative;
+    z-index: 1;
+}
+
+.post-inner .post-content .entry-item .entry-header{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.post-content .entry-item .entry-header h3 a{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 30px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.post-content .entry-item .entry-header h3 a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.post-content .entry-item .entry-content{
+    color: #bdbdbd;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    overflow: hidden;
+    transform: translateY(300%);
+    opacity: 0;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.post-content .entry-item .entry-content p{
+    color: #dee2e6;
+    line-height: 22px;
+}
+
+.entry-content .entry-link{
+    margin-top: 18px;
+}
+
+.entry-content .entry-link a{
+    color: #ffde00;
+    /* color: #d31f3b; */
+    letter-spacing: 1px;
+    font-size: 14px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.entry-content .entry-link a:hover{
+    color: #74c0c9;
+    letter-spacing: 2px;
+}
+
+.entry-content:before, .entry-content:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+
+.post-inner:hover .post-content .entry-item .entry-content{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.post-inner:hover .post-content .entry-item .entry-header{
+    bottom: 100%;
+} 
