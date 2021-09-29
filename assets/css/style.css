@@ -19,6 +19,7 @@
 :: 17.0 ABOUT PAGE CSS
 :: 18.0 CONTACT PAGE CSS
 :: 19.0 TEAM PAGE CSS
+:: 20.0 GALERY PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -2092,5 +2093,155 @@ img {
 }
 
 .team-box:hover .team-thumb-overlay{
+    opacity: 1;
+}
+
+/* ******************************
+:: 20.0 GALERY PAGE CSS
+****************************** */
+.gallery-menu{
+    margin-bottom: 60px;
+}
+
+.gallery-menu li{
+    display: inline-block;
+    margin: 0 27px;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.gallery-menu li.active, .gallery-menu li:hover {
+    color: #d31f3b;
+}
+
+.gallery-menu li:before {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 100%;
+    content: '';
+    background: #d31f3b;
+    height: 1px;
+    width: 0%;
+    visibility: hidden;
+    opacity: 0;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+
+.gallery-menu li.active:before, 
+.gallery-menu li:hover:before {
+    visibility: visible;
+    opacity: 1;
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+
+.single-work-item{
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.single-work-item .thumb {
+    overflow: hidden;
+}
+
+.single-work-item .thumb:before {
+    content: '';
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 24, 64, 0.3);
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    z-index: 1;
+    opacity: 0;
+}
+
+.single-work-item .thumb:after {
+    content: '';
+    position: absolute;
+    right: -50%;
+    bottom: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 24, 64, 0.3);
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    z-index: 1;
+    opacity: 0;
+}
+
+.single-work-item .thumb img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.single-work-item .content-wrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.single-work-item .content-wrap .cats {
+    font-size: 16px;
+    color: #F9556D;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.single-work-item .content-wrap .title {
+    font-size: 24px;
+    color: #fff;
+    padding: 0 35px;
+    letter-spacing: 0.48px;
+    font-weight: 500;
+    display: block;
+}
+
+.single-work-item:hover .thumb:before {
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+
+.single-work-item:hover .thumb:after {
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+
+.single-work-item:hover .content-wrap {
+    visibility: visible;
     opacity: 1;
 }

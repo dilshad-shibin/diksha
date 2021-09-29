@@ -699,6 +699,12 @@
         padding-left: 0px;
         margin-top: 10px;
     }
+    .single-work-item .content-wrap .title{
+        font-size: 18px;
+    }
+    .gallery-menu li{
+        margin-bottom: 10px;
+    }
 }
 
 @media(max-width: 575px){
