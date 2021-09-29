@@ -18,6 +18,7 @@
 :: 16.0 MUSIC PAGE CSS
 :: 17.0 ABOUT PAGE CSS
 :: 18.0 CONTACT PAGE CSS
+:: 19.0 TEAM PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -1928,4 +1929,168 @@ img {
 
 .map-area .map iframe {
     width: 100%;
+}
+
+/* ******************************
+:: 19.0 TEAM PAGE CSS
+****************************** */
+.team-head h2{
+    color: #660e0f;
+    font-size: 38px;
+    margin-bottom: 75px;
+    font-weight: 600;
+    position: relative;
+}
+
+.team-head h2 span{
+    font-weight: 700;
+}
+
+.team-head h2::before{
+    content: "";
+    position: absolute;
+    background-color: #660e0f;
+    width: 10%;
+    height: 3px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: -15px;
+}
+
+.team-box{
+    background-color: #f1efea;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.team-img{
+    position: relative;
+    flex: 0 0 50%;
+}
+
+.team-content{
+    padding: 25px;
+    position: relative;
+    flex: 0 0 50%;
+}
+
+.team-content::before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid;
+    z-index: 1;
+    border-right-color: #f1efea;
+}
+
+.team-content h4{
+    color: #000;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.team-content h5{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    color: #d31f3b;
+}
+
+.team-content p{
+    padding-top: 10px;
+}
+
+.team-thumb-overlay{
+    background: rgb(211 ,31, 59,0.9);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.team-thumb-overlay ul{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-thumb-overlay ul li{
+    position: relative;
+    width: 42px;
+    height: 25px;
+    margin: 8px 5px;
+    background: none;
+    border: 1px solid;
+    border-color: #fff;
+    border-top: none;
+    border-bottom: none;
+}
+
+.team-thumb-overlay ul li::before{
+    top: -15.0660px;
+    border-top: solid 1.5px;
+    border-right: solid 1.5px;
+    border-color: #fff;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 5px;
+}
+
+.team-thumb-overlay ul li::after{
+    bottom: -15.0660px;
+    border-bottom: solid 1.5px;
+    border-left: solid 1.5px;
+    border-color: #fff;
+    left: 5px;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+}
+
+.team-thumb-overlay ul li a{
+    line-height: 52px;
+    position: relative;
+    z-index: 9;
+    left: -1px;
+    top: -13px;
+    width: 42px;
+    height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.team-thumb-overlay ul li a:hover{
+    color: #660e0f;
+}
+
+.team-box:hover .team-thumb-overlay{
+    opacity: 1;
 }

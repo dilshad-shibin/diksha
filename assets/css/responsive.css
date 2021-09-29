@@ -837,4 +837,10 @@
     .contact-box h2{
         font-size: 32px;
     }
+    .team-box{
+        flex-direction: column;
+    }
+    .team-content::before{
+        display: none;
+    }
 }
