@@ -713,7 +713,11 @@ img {
     font-size: 22px;
     line-height: 35px;
     max-width: 600px;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
+}
+
+.about-content p.last-p{
+    margin-bottom: 50px;
 }
 
 .about-content a{
@@ -816,6 +820,12 @@ img {
     font-size: 35px;
     padding-left: 25px;
     padding-bottom: 25px;
+}
+
+.course-name h2 a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 35px;
 }
 
 .course-text p{
@@ -1346,7 +1356,7 @@ img {
 
 .footer-area  .footer-items-menu{
     display: flex;
-    padding-left: 60px;
+    padding-left: 85px;
 }
 
 .footer-items-2menu{
