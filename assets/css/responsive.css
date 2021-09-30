@@ -649,6 +649,9 @@
     .map-area{
         padding-top: 0;
     }
+    .dance-catbox{
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -822,7 +825,8 @@
         padding: 35px 35px 50px;
     }
     .instrumental-2 {
-        padding-left: 35px;
+        padding-left: 0px;
+        margin-top: 15px;
     }
     .instrumental-lists ul li a{
         font-size: 20px;
@@ -857,5 +861,8 @@
     }
     .post-content .entry-item .entry-header h3 a{
         font-size: 25px;
+    }
+    .instrumental-lists{
+        flex-direction: column;
     }
 }

@@ -21,6 +21,7 @@
 :: 19.0 TEAM PAGE CSS
 :: 20.0 GALERY PAGE CSS
 :: 21.0 COURSES PAGE CSS
+:: 22.0 DANCE PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -1540,6 +1541,7 @@ img {
 .cat-box-text2{
     background-color: #fff;
     padding-left: 200px;
+    padding-bottom: 130px;
 }
 
 .instrumental-lists{
@@ -1552,9 +1554,15 @@ img {
 }
 
 .instrumental-lists ul li a{
-    color: #fff;
     font-weight: 500;
-    font-size: 24px;
+    color: #ffffffcf;
+    font-size: 16px;
+}
+
+.instrumental-lists ul li a.head-list{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
 }
 
 .instrumental-2{
@@ -2407,4 +2415,68 @@ img {
 
 .post-inner:hover .post-thumbnail img{
     transform: scale(1.1);
+}
+
+
+/* ******************************
+:: 22.0 DANCE PAGE CSS
+****************************** */
+.dance-about{
+    background-color: #fff8f6;
+}
+
+.dance-catbox{
+    position: relative;
+    transition: all .3s ease;
+    overflow: hidden;
+}
+
+.dance-catbox .dance-img img{
+    transform: scale(1);
+    transition: all .3s ease;
+    overflow: hidden;
+}
+
+.dance-name{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 10;
+    opacity: 0;
+}
+
+.dance-name h3{
+    color: #fff;
+    font-weight: 600;
+}
+
+.dance-catbox:hover .dance-img img{
+    background-image: linear-gradient(to left bottom, rgb(20, 20, 20) 0%, rgba(34, 26, 26, 0.5) 50%);
+}
+
+.dance-catbox:hover .dance-name{
+    opacity: 1;
+}
+
+.dance-catbox:hover .dance-img img{
+    transform: scale(1.1);
+}
+
+.dance-head{
+    margin-top: 50px;
+}
+
+.dance-head .h3 h3{
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.dance-head .dance-text p{
+    color: #660e0f;
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 500;
 }
