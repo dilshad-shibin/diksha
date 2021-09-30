@@ -22,6 +22,7 @@
 :: 20.0 GALERY PAGE CSS
 :: 21.0 COURSES PAGE CSS
 :: 22.0 DANCE PAGE CSS
+:: 23.0 YOGA PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -2479,4 +2480,57 @@ img {
     font-size: 22px;
     line-height: 38px;
     font-weight: 500;
+}
+
+/* ******************************
+:: 23.0 YOGA PAGE CSS
+****************************** */
+.yoga-area{
+    background-image: url(../img/courses/yoga/yoga-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.yoga-heads h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.yoga-heads h1 span{
+    color: #660e0f;
+}
+
+.yoga-heads h3{
+    color: #d31f3b;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.yoga-heads p{
+    line-height: 1.7;
+    color: #5c5c5c;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.yoga-lists .list-inner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.yoga-lists .list-inner .inner-text{
+    padding-left: 20px;
+}
+
+.yoga-icon{
+    border: 2px solid #d31f3b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.yoga-icon svg{
+    color: #d31f3b;
+    font-size: 40px;
 }

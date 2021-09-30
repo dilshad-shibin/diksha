@@ -711,6 +711,18 @@
     .gallery-menu li{
         margin-bottom: 10px;
     }
+    .yoga-area{
+        background-position: center;
+    }
+    .yoga-area-overlay{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #00800030;
+        opacity: 0.9;
+    }
 }
 
 @media(max-width: 575px){
