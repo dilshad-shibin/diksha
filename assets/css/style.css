@@ -636,15 +636,15 @@ img {
 
 .welcome-intro h3{
     color: #fff;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 1px;
 }
 
 .welcome-intro h1{
     color: #fc425f;
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 700;
-    max-width: 500px;
+    max-width: 550px;
     letter-spacing: 1px;
     margin-bottom: 25px;
 }
@@ -652,7 +652,7 @@ img {
 .welcome-intro span{
     font-family: 'Charmonman', cursive;
     color: #ffffffde;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .intro-btn{
@@ -1757,6 +1757,7 @@ img {
     transition: all .5s ease;
     text-align: center;
     border-radius: 10px;
+    min-height: 250px;
 }
 
 .choose-boxes .box-inner .icon{
