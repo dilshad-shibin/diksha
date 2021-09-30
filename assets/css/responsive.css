@@ -877,4 +877,13 @@
     .instrumental-lists{
         flex-direction: column;
     }
+    .bread-head-art span, .bread-head-art span a{
+        font-size: 15px;
+    }
+    .bread-head-art h1{
+        font-size: 32px;
+    }
+    .art-head p{
+        font-size: 15px;
+    }
 }

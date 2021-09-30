@@ -23,6 +23,7 @@
 :: 21.0 COURSES PAGE CSS
 :: 22.0 DANCE PAGE CSS
 :: 23.0 YOGA PAGE CSS
+:: 24.0 ART & CRAFT PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -2533,4 +2534,38 @@ img {
 .yoga-icon svg{
     color: #d31f3b;
     font-size: 40px;
+}
+
+/* ******************************
+:: 24.0 ART & CRAFT PAGE CSS
+****************************** */
+.art-head{
+    margin-bottom: 50px;
+}
+
+.art-head h2{
+    color: #660e0f;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.art-head p{
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.art-text{
+    margin-top: 40px;
+}
+
+.art-text p{
+    color: #660e0f;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+    text-align: center;
 }
