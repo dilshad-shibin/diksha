@@ -652,6 +652,12 @@
     .dance-catbox{
         margin-bottom: 30px;
     }
+    .photo-details{
+        margin-bottom: 30px;
+    }
+    .photo-img img{
+        width: 100%;
+    }
 }
 
 
