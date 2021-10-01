@@ -31,9 +31,15 @@
 :: 1.0 WEB FONTS
 ****************************** */
 @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Kumbh+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-/* font-family: 'Kumbh Sans', sans-serif;
-font-family: 'Charmonman', cursive; */
+/* font-family: 'Kumbh Sans', sans-serif;(not using)
+font-family: 'Charmonman', cursive; 
+font-family: 'Poppins', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 
 
 /* ******************************
@@ -89,7 +95,7 @@ h6 {
     font-weight: 400;
     color: #1c144e;
     margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -668,6 +674,11 @@ img {
     padding: 15px 40px !important;
     text-transform: uppercase;
     font-size: 20px;
+    transition: all .3s ease;
+}
+
+.intro-btn a:hover{
+    background-color: #660e0f;
 }
 
 /* ******************************
@@ -783,7 +794,7 @@ img {
 }
 
 .course-head h1 span{
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .course-box{
@@ -857,6 +868,7 @@ img {
 .course-color{
     background-color: #d31f3b;
     min-height: 415px;
+    transition: all .3s ease;
 }
 
 .course-color a{
@@ -873,7 +885,11 @@ img {
 }
 
 .course-color a:hover{
-    color: #660e0f;
+    color: #fff;
+}
+
+.course-color:hover{
+    background-color: #660e0f;
 }
 
 /* ******************************
@@ -1012,7 +1028,7 @@ img {
 }
 
 .gallery-content h1{
-    font-size: 32px;
+    font-size: 28px;
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
@@ -1599,9 +1615,9 @@ img {
 
 .about-page-content h2{
     color: #660e0f;
-    font-size: 38px;
+    font-size: 34px;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .about-page-content p{
