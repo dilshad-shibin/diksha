@@ -746,9 +746,9 @@
         margin-top: 35px;
     }
     .intro-btn a{
-        font-size: 18px;
+        font-size: 16px;
         text-transform: capitalize;
-        padding: 14px 35px !important;
+        padding: 12px 30px !important;
     }
     .about-content h2{
         font-size: 25px;
@@ -894,5 +894,21 @@
     }
     .testi-inner{
         min-height: 880px;
+    }
+    .banner-slider .owl-dots{
+        position: relative;
+        bottom: 60px;
+        text-align: center;
+    }
+    .banner-slider .owl-dots button.active{
+        background-color: orange;
+    }
+    .banner-slider .owl-dots button{
+        background: #fc425f;
+        width: 15px;
+        height: 15px;
+        margin-right: 6px;
+        border: 2px solid #fff;
+        border-radius: 50%;
     }
 }

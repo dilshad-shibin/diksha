@@ -95,6 +95,37 @@
         $.preventDefault();
     });
 
+    // :: 7.0 BANNER SLIDER ACTIVE CODE
+    $('.banner-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: false,
+        autoplayTimeout: 2000,
+        // navText: [
+        //     '<i class="fas fa-caret-left" aria-hidden="true"></i>',
+        //     '<i class="fas fa-caret-right" aria-hidden="true"></i>'
+        // ],
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+                dots: true
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            992: {
+                items: 1
+            }
+        }
+    });
+
     // :: 8.0 Client SLIDER ACTIVE CODE
     $('.testi-slider.owl-carousel').owlCarousel({
         loop: true,
