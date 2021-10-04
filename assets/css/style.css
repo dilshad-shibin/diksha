@@ -1137,6 +1137,7 @@ img {
 
 .contact-no h2 a:hover{
     color: #ca8a8b;
+    text-decoration: underline;
 }
 
 .contact-btn{
@@ -1169,6 +1170,15 @@ img {
 .admision-box .contact-no{
     flex: 0 0 50%;
     padding-left: 60px;
+}
+
+.admision-box .contact-no h2{
+    display: flex;
+    align-items: center;
+}
+
+.admision-box .contact-no h2 img{
+    margin-right: 15px;
 }
 
 /* ******************************
