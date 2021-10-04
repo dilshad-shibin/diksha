@@ -892,4 +892,7 @@
     .art-head p{
         font-size: 15px;
     }
+    .testi-inner{
+        min-height: 880px;
+    }
 }
