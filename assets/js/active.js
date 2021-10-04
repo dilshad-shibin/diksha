@@ -203,6 +203,15 @@
         }
     });
 
+    /*-------------------------
+            magnific popup activation
+        -------------------------*/
+        $('.video-play-btn,.video-popup,.small-vide-play-btn').magnificPopup({
+            type: 'video',
+            removalDelay: 260,
+            mainClass: 'mfp-zoom-in',
+        });
+
     // :: 9.0 COUNTERUP ACTIVE CODE
     $('.counter').counterUp({
         delay: 10,

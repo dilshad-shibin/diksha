@@ -2297,10 +2297,10 @@ img {
     left: 50%;
     transform: translate(-50%,-50%);
     background: #fff;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    line-height: 80px;
+    line-height: 60px;
     cursor: pointer;
     transition: all .3s ease;
 }
