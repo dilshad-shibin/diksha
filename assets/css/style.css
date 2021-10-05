@@ -25,6 +25,7 @@
 :: 23.0 YOGA PAGE CSS
 :: 24.0 ART & CRAFT PAGE CSS
 :: 25.0 TEAM Aiswarya PAGE CSS
+:: 26.0 THANKS PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -2846,4 +2847,27 @@ img {
     transform: translateY(-50%);
     width: 50px; display: inline-block;
    
+}
+
+/* ******************************
+:: 26.0 THANKS PAGE CSS
+****************************** */
+.thanks-btn{
+    margin-top: 100px;
+}
+
+.thanks-btn a{
+    background: #d31f3b;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 15px 40px !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all .3s ease;
+}
+
+.thanks-btn a:hover{
+    background-color: #660e0f;
 }
